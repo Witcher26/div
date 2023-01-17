@@ -9,3 +9,7 @@ progressNode.forEach((el) => {
         el.style.width = "100px";
     }
 })
+
+function clickFunc(event) {
+    console.log(event.target)
+}
